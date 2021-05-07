@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inventario de productos</title>
+    
+
+</head>
+<body>
+    <div >
+        <h1>Inventario De Productos</h1>
+        
+       ID del producto: <br> <input type="text" id="ID" class="Boton"> 
+      <br>
+      <br>
+       Nombre del producto: <br> <input type="text" id="Nombre" class="Boton">
+       <br>
+       <br>
+       Precio del producto: <br> <input type="number" id="Precio" class="Boton">
+       <br>
+       <br>
+       Cantidad del producto: <br> <input type="number" id="Cantidad" class="Boton">
+       <br>  
+       <br>
+       <button onclick="Agregar()">Guardar</button>
+       <button onclick="Editar()">Editar</button>
+       <br>
+      <br>
+       Busque un producto con la ID:<br> <input type="text" id="textoabuscar" class="Boton">
+       <button onclick="Buscar()"> Buscar</button> 
+       <button onclick="Eliminar2()">Eliminar</button>   
+     </div>
+       <p id="resultado"></p>
+       <br>
+       <button onclick="lista()">Listar</button>
+     <br>
+     <p id="lista"></p>
+     
+     <script src="app.js"></script>
+</body>
+</html>
